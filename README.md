@@ -14,19 +14,19 @@ El objetivo es ayudar a generar **ideas de contenido** y tener un radar claro de
   - ✅ Hacker News → busca historias recientes en top/new por keyword.  
   - 🔜 Reddit → subreddits técnicos (programming, devops, dataengineering, etc.).  
   - 🔜 Product Hunt → categoría Developer Tools.  
+-  **Orquestador (`run_once.py`)**
+    - Carga `.env`  
+    - Selecciona topics del JSON  
+    - Llama collectors con caching  
+    - Filtra con matcher  
+    - Inserta en DB  
 
 ---
 
 ## 🎯 Próximos pasos
 1. Terminar collectors de **Reddit** y **Product Hunt**.  
-2. Orquestador (`run_once.py`) que:  
-   - Carga `.env`  
-   - Selecciona topics del JSON  
-   - Llama collectors con caching  
-   - Filtra con matcher  
-   - Inserta en DB  
-3. Ranking de **Top-5 diario** por impacto (score combinado).  
-4. Notificaciones automáticas vía **Telegram** y **Discord**.  
+2. Ranking de **Top-5 diario** por impacto (score combinado).  
+3. Notificaciones automáticas vía **Telegram** y **Discord**.  
 
 ---
 
